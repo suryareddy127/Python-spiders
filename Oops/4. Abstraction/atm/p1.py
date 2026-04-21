@@ -3,7 +3,7 @@ from abc import ABC,abstractmethod
 # abstract class
 class ATM(ABC):
     @abstractmethod
-    def insert_card(self):
+    def insert_card(self,i):
         pass
 
     @abstractmethod
@@ -27,5 +27,5 @@ class ATM(ABC):
         pass
 
     @abstractmethod
-    def successfully(self):
+    def payment_success(self):
         pass
